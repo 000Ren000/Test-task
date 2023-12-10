@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="4696d6e9-1087-4456-a8ce-c114c69df603" configVersion="6ff9c8d59d77796a2a82ba12e5261c6ae7923a09"/>
+		<Metadata name="Catalog.ГруппыПользователей" id="9d467d8a-9a1a-4842-b5ce-0bde4a6d4c8b" configVersion="1b92797d14f170b8aec340bd4a1e009f008914cc"/>
+		<Metadata name="Catalog.Пользователи" id="213e58d8-f095-414d-ab05-428f4803bd66" configVersion="cc8031d6e705d4c700024c0bb82d2da088c2de61">
+			<Metadata name="Catalog.Пользователи.Attribute.Комментарий" id="04dc56ee-752e-4b3f-a1f5-4a4cdced6409"/>
+			<Metadata name="Catalog.Пользователи.Attribute.Подразделение" id="0b566d0c-39c9-4275-9581-043aca58069b"/>
+			<Metadata name="Catalog.Пользователи.Attribute.ФизическоеЛицо" id="d0e413af-9653-4415-a68f-616295a7a8a3"/>
+			<Metadata name="Catalog.Пользователи.Attribute.Недействителен" id="f4f6110e-02f6-4dcb-a799-78d6f1ef1ab0"/>
+		</Metadata>
+		<Metadata name="Catalog.Пользователи.Form.ФормаСписка" id="bca4e234-1776-4493-a19a-4534d3d48b96" configVersion="1a859903ea33aa289d701fb84c8d287be725e99e"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаСписка.Form" id="bca4e234-1776-4493-a19a-4534d3d48b96.0" configVersion="161532bf4135bbdcbf52d1a13a665ceacf30fc19"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента" id="5a9e9ed7-38dc-4af2-8e72-2d69caa14ed8" configVersion="4d5c272d8249b0215e4bfd8755bfd20c4f988891"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Form" id="5a9e9ed7-38dc-4af2-8e72-2d69caa14ed8.0" configVersion="7c3cbceb4c5752581fe1c9d272dedb298db1f8d1"/>
+		<Metadata name="ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения" id="acf0dd36-cd92-49fa-a9e7-b655efda5f88" configVersion="995933c27009eb9954da115401133bae45f22f49"/>
+		<Metadata name="CommonPicture.Отчеты" id="2422a19c-2c53-4a6b-a689-b4d4429eee38" configVersion="690667011c9e3abcafd0277195ab3321468dfbba"/>
+		<Metadata name="CommonPicture.ПиктограммыЭлементов" id="2b481586-d5c8-4700-b583-2c301e48f80a" configVersion="184e57cb3d053766613ec6c4108db35b8a1a4055"/>
+		<Metadata name="CommonPicture.СостоянияПользователей" id="779643f3-256d-492f-986a-47d31616b3ee" configVersion="158240b3429b9a156b3eba58bb57de2f6ac7f4cb"/>
+		<Metadata name="Configuration.МоиДороботки" id="4abda573-e61d-4b92-b8cd-38a1015b8019" configVersion="0d97e560f5705319963ce0079c8422353e02f80e"/>
+		<Metadata name="Constant.ИспользоватьВнешнихПользователей" id="ad472296-99b6-4512-b675-0bb332224e3c" configVersion="96b6cc43b26ae2182af13822cefac72791cc69f4"/>
+		<Metadata name="DefinedType.Подразделение" id="783ccd3f-1c80-4c8a-9a32-bf4f7bc88635" configVersion="83af0ab7436adffb19a0a83b8419ae205d6f51ad"/>
+		<Metadata name="DefinedType.ФизическоеЛицо" id="4d9fe594-a5fa-45c4-85e8-05ad020b0856" configVersion="f49b9b493a988ff489823a436de6564c79cf21c9"/>
+		<Metadata name="Document.антУстановкаДоступностиДокументовПользователям" id="84ec5602-e4b0-4d0e-ab02-d6848031fbf9" configVersion="101b59fb836c08dd4ca9ea8e4b454711c255b828">
+			<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.TabularSection.Пользователи" id="02587059-212f-45aa-a19e-61ea8157fce1"/>
+			<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.TabularSection.ДоступностьДокументовПользователям" id="58d1c1a5-fdff-4caf-822f-468e01f8a944"/>
+			<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.TabularSection.ДоступностьДокументовПользователям.Attribute.Доступен" id="598cc1fb-a38a-4c56-adda-0058b8214e50"/>
+			<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.TabularSection.Пользователи.Attribute.Пользователь" id="81477421-a0b6-4271-ab97-8aac5b751ceb"/>
+			<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.TabularSection.ДоступностьДокументовПользователям.Attribute.Пользователь" id="c87d948f-bc34-4fc3-a7db-7b9ee4df7a1b"/>
+			<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.TabularSection.ДоступностьДокументовПользователям.Attribute.Документ" id="d3f700ec-22e5-4243-bd69-a287fdea7df8"/>
+		</Metadata>
+		<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.Form.ФормаДокумента" id="34f95614-3807-4a51-bce0-a8138587f378" configVersion="d97b1b319d36e7ddb413c4cde27d4b60c3852142"/>
+		<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.Form.ФормаДокумента.Form" id="34f95614-3807-4a51-bce0-a8138587f378.0" configVersion="d558932cb8614a0620dfaa3b2bc0c59e7b42c66f"/>
+		<Metadata name="Document.антУстановкаДоступностиДокументовПользователям.ObjectModule" id="84ec5602-e4b0-4d0e-ab02-d6848031fbf9.0" configVersion="3dacc8020885a23a2c3378eeeb276e8ca43495a5"/>
+		<Metadata name="Enum.ТипыКонтактнойИнформации" id="9cb6691d-57de-47c6-9dd0-eceb9e4ab919" configVersion="e27175695f37866a49521b28c9e9066355c8e6eb"/>
+		<Metadata name="FunctionalOption.ИспользоватьВнешнихПользователей" id="2b85735b-9aeb-4f63-9d65-bb0522770880" configVersion="0090987b77a9b83f37a9a78dcc1b14e5e78d0e90"/>
+		<Metadata name="InformationRegister.антДоступностьДокументовПользователям" id="3a71f936-8c78-4991-91ee-4fefa45653e2" configVersion="cbcb3ab6bd56019174fe7b8cd427569cf65c7959">
+			<Metadata name="InformationRegister.антДоступностьДокументовПользователям.Dimension.Документ" id="3a3a13e1-e3f1-4a40-bccb-c1a873689cc3"/>
+			<Metadata name="InformationRegister.антДоступностьДокументовПользователям.Dimension.Пользователь" id="596534fb-7d90-491e-a11b-d90cb9a7996e"/>
+			<Metadata name="InformationRegister.антДоступностьДокументовПользователям.Resource.Доступен" id="e3642a30-644c-4044-ba87-006984cb1208"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="ee888928-da2c-4b18-aa42-ef7d097d45d4" configVersion="931567cdc5d06abde5f3c020baddfe619eb2b8c0"/>
+		<Metadata name="Role.антОсновнаяРоль" id="ed41a3e7-9517-4d2f-88f9-0d716e2a4fed" configVersion="1cbce9cc4ebd24258b4d1a10562c878f3cebfffe"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="25084962-795b-4b8d-8f83-c5173ed0bcd8" configVersion="17e9b3873e54cd5a7932ad9a74797d0d23efbc61"/>
+		<Metadata name="Subsystem.Администрирование" id="822df22f-732f-4b44-befe-13a5ee7d778e" configVersion="7d2834655ee3f0a8b188c234bf52498a8fd7bfdf"/>
+		<Metadata name="Subsystem.Администрирование.Subsystem.Администрирование" id="6d073abc-2a78-4e0a-bec6-50d0c67566e9" configVersion="985a46b6144aa9b3aa9bfe86b0e998c0d2d04611"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="9cb6691d-57de-47c6-9dd0-eceb9e4ab919">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыКонтактнойИнформации" category="Ref">
+				<xr:TypeId>2f12ea60-5887-49dd-aa37-a921813a945d</xr:TypeId>
+				<xr:ValueId>42119395-c49a-41e9-833a-29fd3ed17749</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыКонтактнойИнформации" category="Manager">
+				<xr:TypeId>c7afa905-e8cb-4450-9164-84c6b587d32b</xr:TypeId>
+				<xr:ValueId>29ef6a6c-9976-4f72-af50-78ab506d836a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыКонтактнойИнформации" category="List">
+				<xr:TypeId>6af367e1-6d92-4b37-bc2c-914ff3c9de87</xr:TypeId>
+				<xr:ValueId>07e814ca-1a76-473b-9eb7-d4c02768b498</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыКонтактнойИнформации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8d080f3c-06ed-48bf-9709-eea73d676741</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

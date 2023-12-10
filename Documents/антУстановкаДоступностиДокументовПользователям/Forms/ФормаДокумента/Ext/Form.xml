@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДоступностьДокументовПользователям" id="66">
+			<Visible>false</Visible>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ДоступностьДокументовПользователям</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДоступностьДокументовПользователямКонтекстноеМеню" id="67"/>
+			<AutoCommandBar name="ДоступностьДокументовПользователямКоманднаяПанель" id="68"/>
+			<ExtendedTooltip name="ДоступностьДокументовПользователямРасширеннаяПодсказка" id="69"/>
+			<SearchStringAddition name="ДоступностьДокументовПользователямСтрокаПоиска" id="70">
+				<AdditionSource>
+					<Item>ДоступностьДокументовПользователям</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоступностьДокументовПользователямСтрокаПоискаКонтекстноеМеню" id="71"/>
+				<ExtendedTooltip name="ДоступностьДокументовПользователямСтрокаПоискаРасширеннаяПодсказка" id="72"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДоступностьДокументовПользователямСостояниеПросмотра" id="73">
+				<AdditionSource>
+					<Item>ДоступностьДокументовПользователям</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоступностьДокументовПользователямСостояниеПросмотраКонтекстноеМеню" id="74"/>
+				<ExtendedTooltip name="ДоступностьДокументовПользователямСостояниеПросмотраРасширеннаяПодсказка" id="75"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДоступностьДокументовПользователямУправлениеПоиском" id="76">
+				<AdditionSource>
+					<Item>ДоступностьДокументовПользователям</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДоступностьДокументовПользователямУправлениеПоискомКонтекстноеМеню" id="77"/>
+				<ExtendedTooltip name="ДоступностьДокументовПользователямУправлениеПоискомРасширеннаяПодсказка" id="78"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ДоступностьДокументовПользователямНомерСтроки" id="79">
+					<DataPath>Объект.ДоступностьДокументовПользователям.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоступностьДокументовПользователямНомерСтрокиКонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="ДоступностьДокументовПользователямНомерСтрокиРасширеннаяПодсказка" id="81"/>
+				</LabelField>
+				<InputField name="ДоступностьДокументовПользователямПользователь" id="82">
+					<DataPath>Объект.ДоступностьДокументовПользователям.Пользователь</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоступностьДокументовПользователямПользовательКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="ДоступностьДокументовПользователямПользовательРасширеннаяПодсказка" id="84"/>
+				</InputField>
+				<InputField name="ДоступностьДокументовПользователямДокумент" id="85">
+					<DataPath>Объект.ДоступностьДокументовПользователям.Документ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДоступностьДокументовПользователямДокументКонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="ДоступностьДокументовПользователямДокументРасширеннаяПодсказка" id="87"/>
+				</InputField>
+				<CheckBoxField name="ДоступностьДокументовПользователямДоступен" id="88">
+					<DataPath>Объект.ДоступностьДокументовПользователям.Доступен</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДоступностьДокументовПользователямДоступенКонтекстноеМеню" id="89"/>
+					<ExtendedTooltip name="ДоступностьДокументовПользователямДоступенРасширеннаяПодсказка" id="90"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+		<Table name="Пользователи" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Пользователи</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПользователиКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ПользователиКоманднаяПанель" id="9">
+				<ChildItems>
+					<Button name="ПользователиПодбор" id="26">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Подбор</CommandName>
+						<ExtendedTooltip name="ПользователиПодборРасширеннаяПодсказка" id="27"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ПользователиРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ПользователиСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>Пользователи</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПользователиСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ПользователиСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПользователиСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>Пользователи</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПользователиСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ПользователиСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПользователиУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>Пользователи</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПользователиУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ПользователиУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ПользователиВыбор</Event>
+				<Event name="BeforeDeleteRow">ПользователиПередУдалением</Event>
+				<Event name="OnChange">ПользователиПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ПользователиНомерСтроки" id="20">
+					<DataPath>Объект.Пользователи.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПользователиНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ПользователиНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ПользователиПользователь" id="23">
+					<DataPath>Объект.Пользователи.Пользователь</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПользователиПользовательКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ПользователиПользовательРасширеннаяПодсказка" id="25"/>
+					<Events>
+						<Event name="OnChange">ПользователиПользовательПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="УстановкаДоступности" id="91">
+			<Representation>List</Representation>
+			<Visible>false</Visible>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>УстановкаДоступности</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="УстановкаДоступностиКонтекстноеМеню" id="92"/>
+			<AutoCommandBar name="УстановкаДоступностиКоманднаяПанель" id="93"/>
+			<ExtendedTooltip name="УстановкаДоступностиРасширеннаяПодсказка" id="94"/>
+			<SearchStringAddition name="УстановкаДоступностиСтрокаПоиска" id="95">
+				<AdditionSource>
+					<Item>УстановкаДоступности</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="УстановкаДоступностиСтрокаПоискаКонтекстноеМеню" id="96"/>
+				<ExtendedTooltip name="УстановкаДоступностиСтрокаПоискаРасширеннаяПодсказка" id="97"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="УстановкаДоступностиСостояниеПросмотра" id="98">
+				<AdditionSource>
+					<Item>УстановкаДоступности</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="УстановкаДоступностиСостояниеПросмотраКонтекстноеМеню" id="99"/>
+				<ExtendedTooltip name="УстановкаДоступностиСостояниеПросмотраРасширеннаяПодсказка" id="100"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="УстановкаДоступностиУправлениеПоиском" id="101">
+				<AdditionSource>
+					<Item>УстановкаДоступности</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="УстановкаДоступностиУправлениеПоискомКонтекстноеМеню" id="102"/>
+				<ExtendedTooltip name="УстановкаДоступностиУправлениеПоискомРасширеннаяПодсказка" id="103"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="УстановкаДоступностиДокумент" id="104">
+					<DataPath>УстановкаДоступности.Документ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="УстановкаДоступностиДокументКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="УстановкаДоступностиДокументРасширеннаяПодсказка" id="106"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Подвал" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПодвалРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<UsualGroup name="КнопкиСЛева" id="60">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кнопки с лева</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кнопки с лева</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="КнопкиСЛеваРасширеннаяПодсказка" id="61"/>
+					<ChildItems>
+						<Button name="Назад" id="34">
+							<Type>UsualButton</Type>
+							<Visible>false</Visible>
+							<CommandName>Form.Command.Назад</CommandName>
+							<ExtendedTooltip name="НазадРасширеннаяПодсказка" id="35"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="КнопкиСПрава" id="62">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кнопки с права</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кнопки с права</v8:content>
+						</v8:item>
+					</ToolTip>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="КнопкиСПраваРасширеннаяПодсказка" id="63"/>
+					<ChildItems>
+						<Button name="Далее" id="32">
+							<Type>UsualButton</Type>
+							<Visible>false</Visible>
+							<CommandName>Form.Command.Далее</CommandName>
+							<BackColor>style:ImportantColor</BackColor>
+							<ExtendedTooltip name="ДалееРасширеннаяПодсказка" id="33"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.антУстановкаДоступностиДокументовПользователям</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="УстановкаДоступности" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установка доступности</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Документ" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Подбор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подбор</Action>
+		</Command>
+		<Command name="Далее" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Далее</Action>
+		</Command>
+		<Command name="Назад" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Назад</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>InformationRegister.антДоступностьДокументовПользователям.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>
